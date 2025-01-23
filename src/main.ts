@@ -5,15 +5,15 @@
  */
 
 // Plugins
+import { createApp } from 'vue'
+import App from './App.vue'
 import { registerPlugins } from '@/plugins'
 import router from './router';
 import vuetify from './plugins/vuetify';
 import VueApexCharts from "vue3-apexcharts";
 // Components
-import App from './App.vue'
 
 // Composables
-import { createApp } from 'vue'
 
 const app = createApp(App)
 app.use(router);
