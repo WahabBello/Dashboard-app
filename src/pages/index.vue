@@ -11,7 +11,27 @@
       </v-col>
     </v-row>
 
-
+    <!-- Liens rapides -->
+    <v-row class="quick-links" align="center" justify="center">
+      <v-col cols="12" md="4">
+        <v-card @click="navigateTo('/charts')" class="quick-link-card" outlined>
+          <v-card-title>📊 Analyse des Ventes</v-card-title>
+          <v-card-text>Visualisez les performances de vos produits.</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="4">
+        <v-card @click="navigateTo('/settings')" class="quick-link-card" outlined>
+          <v-card-title>⚙️ Paramètres</v-card-title>
+          <v-card-text>Configurez votre tableau de bord selon vos besoins.</v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" md="4">
+        <v-card @click="navigateTo('/reports')" class="quick-link-card" outlined>
+          <v-card-title>📄 Rapports</v-card-title>
+          <v-card-text>Générez et téléchargez des rapports détaillés.</v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
 
     <!-- Image ou animation d'accueil -->
     <v-row justify="center">
