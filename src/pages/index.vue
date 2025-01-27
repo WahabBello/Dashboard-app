@@ -70,34 +70,7 @@ const navigateTo = (path: string) => {
 </script>
 
 <style scoped>
-.light-theme {
-  color: #212121;
-  background-color: #f5f5f5;
-}
 
-.light-theme h1,
-.light-theme h2 {
-  color: #000;
-}
-
-.light-theme p {
-  color: #424242;
-}
-
-/* Styles pour le thème sombre */
-.dark-theme {
-  color: #e0e0e0;
-  background-color: #121212;
-}
-
-.dark-theme h1,
-.dark-theme h2 {
-  color: #fff;
-}
-
-.dark-theme p {
-  color: #bdbdbd;
-}
 .dashboard-welcome {
   padding: 24px;
   text-align: center;
