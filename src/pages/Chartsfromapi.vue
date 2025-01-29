@@ -3,14 +3,7 @@
     <h1 class="mb-4">Dashboard des Ventes</h1>
 
     <v-row class="mt-4 mb-4">
-      <v-col cols="12" md="4">
-        <apexchart
-          type="line"
-          height="200"
-          :options="sparkOptions"
-          :series="sparkSeries1"
-        />
-      </v-col>
+
       <v-col cols="12" md="4">
         <apexchart
           type="bar"
