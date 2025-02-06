@@ -111,13 +111,11 @@ const navigateTo = (path: string) => {
 
 .welcome-message h2 {
   font-size: 2rem;
-  /* color: #616161; */
   margin-bottom: 16px;
 }
 
 .welcome-message p {
   font-size: 1.2rem;
-  /* color: #757575; */
   margin-bottom: 32px;
 }
 

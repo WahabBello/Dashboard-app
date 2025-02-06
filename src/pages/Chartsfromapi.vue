@@ -86,7 +86,6 @@ export default defineComponent({
 h1 {
   font-family: "Titillium Web", sans-serif;
   font-weight: 600;
-  /* color: #333; */
 }
 
 .v-card {
