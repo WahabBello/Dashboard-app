@@ -122,5 +122,13 @@ export default defineComponent({
 </script>
 
 <style scoped>
+h1 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  color: #333;
+}
 
+.v-card {
+  border-radius: 12px;
+}
 </style>
