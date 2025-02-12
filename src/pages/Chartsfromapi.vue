@@ -2,7 +2,7 @@
   <v-container>
     <h1 class="mb-4 text-center">Dashboard des Ventes</h1>
 
-    <v-row class="mt-5 mb-4">
+    <!-- <v-row class="mt-5 mb-4">
       <v-col cols="12" md="6">
         <v-card class="pa-4" elevation="4">
           <v-card-title>Ventes par Produit</v-card-title>
@@ -20,7 +20,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
+    </v-row> -->
 
     <v-row class="mt-4 mb-4">
       <v-col cols="12" md="6">
