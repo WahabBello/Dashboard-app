@@ -22,14 +22,14 @@
         </v-card>
       </v-col>
 
-      <v-col cols="12" md="4">
+      <!-- <v-col cols="12" md="4">
         <v-card class="pa-4" elevation="4">
           <v-card-title>Performance Mensuelle</v-card-title>
           <v-card-text>
             <apexchart type="area" height="200" :options="sparkOptions" :series="sparkSeries3" />
           </v-card-text>
         </v-card>
-      </v-col>
+      </v-col> -->
     </v-row>
 
     <!-- Section Graphiques Principaux -->
