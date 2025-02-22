@@ -12,14 +12,14 @@
         </v-card>
       </v-col>
 
-      <!-- <v-col cols="12" md="6">
+      <v-col cols="12" md="6">
         <v-card class="pa-4" elevation="4">
           <v-card-title>Répartition des Produits</v-card-title>
           <v-card-text>
             <apexchart type="donut" height="300" :options="donutOptions" :series="donutSeries" />
           </v-card-text>
         </v-card>
-      </v-col> -->
+      </v-col>
     </v-row>
 
     <v-row class="mt-4 mb-4">
